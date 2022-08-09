@@ -43,13 +43,13 @@ let koderAges = [19, 20, 30, 50, 100, 19, 30]
 let totalAgeKoders = sumAges(koderAges)
 */
 // 1. funcion que concatene 2 arrays 
-
-const concatarr = (name,namen) => {
+function concatarr (name,namen){
 let juntos = name.concat(namen)
+console.log(juntos)
 return(juntos)
 }
-let name = ['Ivan', 'Edgar', 'Isabel']
-let namen = ['Mario', 'Fanny', 'Jose']
+
+concatarr(['Ivan', 'Edgar', 'Isabel'],['Mario', 'Fanny', 'Jose'])
 
 // 2. funcion que devuelva solo los elementos unicos de un array
 // 3. funcion que devuelva solo los elementos repetidos de un  
